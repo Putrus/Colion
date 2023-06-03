@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/out/build/linux-debug/Colion/Colion",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb"
+      },
+      {
+        "name": "Debug",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/out/build/linux-debug/Colion/Colion",
+        "args": [],
+        "stopAtEntry": true,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb"
+      }
+    ]
+  }
+  
